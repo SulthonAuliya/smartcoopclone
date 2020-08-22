@@ -1,0 +1,625 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+.container{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.container-fluid{
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+/* navbar */
+
+.navbar {
+    z-index: 999;
+    padding-top: 1vh;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    border-bottom:  grey;
+    box-shadow: 0 8px 6px -6px #999;
+}
+.navbar .brand{
+    display: inline-block;
+    font-size: 1.1vw;
+    color: #545454;
+    
+}
+
+.navbar .nav-links{
+    display: inline;
+    float: right;
+    font-size: 1vw;
+}
+
+.navbar .nav-links a{
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #545454;
+    transition: .3s ease;
+}
+
+.navbar .nav-links a.active{
+    color: #1a75bb
+}
+
+.navbar .nav-links a:hover{
+    color: #1a75bb
+}
+
+
+
+/* jumbotron */
+.jumbotron{
+    background-image: url("https://www.smartcoop.id/media/img/bg3.jpg");
+    height: 90vh;
+    overflow: hidden;
+    
+}
+.jumbotron .jumbotron-content{
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+}
+.jumbotron .jumbotron-content .img-corp img{
+    width: 60vw;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jumbotron-content .tagline{
+    width: 79vw;
+    margin: auto;
+    text-align: center;
+    font-size: 1.8vw;
+    color: #fff;
+}
+
+/* description section */
+
+.desc{
+    text-align: center;
+    align-items: center;
+    padding-top: 19vh;
+    height: auto;
+}
+.desc .title{
+    font-size: 1.5vw;
+    width: 60vw;
+    color: #444444;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.desc hr{
+    margin-top: 6vh;
+    width: 5vw;
+    height: 2px;
+    background-color: #1a75bb;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc .description{
+    margin-top: 6vh;
+    width: 60vw;
+    font-size: 1.2;
+    color: #7b7f88;
+    margin-left: auto;
+    margin-right: auto;
+}
+.desc .description .p2{
+    margin-top: 3vh;
+}
+.desc .btn-features{
+    margin-top: 6vh;
+}
+.desc .btn-features button{
+    height: 7vh;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1vw;
+    background-color: #1a75bb;
+    width: 15vw;
+    transition: .4s ease;
+}
+.desc .btn-features button:hover{
+    background-color: #1a75bbbd;;
+    cursor: pointer;
+}
+.video{
+    margin-top: 6vh;
+    width: 60vw;
+    height: 60vh;
+    margin-bottom: 30vh;
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* fitur section */
+.fitur{
+    background-color: #cfe2f1;
+    padding-top: 20vh;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30vh;
+}
+
+.fitur .title{
+    text-align: center;
+    font-size: 1.5vw;
+    width: 60vw;
+    color: #444444;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.fitur hr{
+    margin-top: 6vh;
+    width: 5vw;
+    height: 2px;
+    background-color: #1a75bb;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fitur .description{
+    margin-top: 6vh;
+    width: 60vw;
+    font-size: 1.2;
+    color: #7b7f88;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fitur .all-fitur{
+    margin-top: 20vh;
+    height: auto;
+}
+
+.kiri{
+    
+    display: inline-block;
+    width: 50%;
+    height: 70vh;
+}
+
+.all-fitur  .img {
+    width: 100%;
+    height: 100%;
+}
+
+.all-fitur  .img img{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(5px 5px 20px rgba(138, 138, 138, 0.616));
+}
+
+
+
+.kanan{
+    display: inline;
+    float: right;
+    width: 50%;
+    height: 70vh;
+}
+
+
+.info .titles{
+    margin-top: 5vh;
+    color: #2f5480;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.info .descriptions{
+    margin-top: 3vh;
+    width: 30vw;
+    color: #7b7f88;
+}
+.info .fiturs{
+    margin-top: 3vh;
+    color: #7b7f88;
+    
+}
+
+.info .fiturs .list{
+    list-style-type: none;
+}
+
+.info .fiturs ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '\2714 \fe0e';
+    color: #1a75bb;
+  }
+
+
+
+/* penghargaan section */
+
+.penghargaan{
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}
+
+.penghargaan .title{
+    text-align: center;
+    font-size: 1.5vw;
+    width: 60vw;
+    color: #444444;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.penghargaan hr{
+    margin-top: 6vh;
+    width: 5vw;
+    height: 2px;
+    background-color: #1a75bb;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.penghargaan .description{
+    margin-top: 6vh;
+    width: 60vw;
+    font-size: 1.2;
+    color: #7b7f88;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.penghargaan .img{
+    margin-top: 10vh;
+}
+
+.penghargaan .img .kiri img{
+    max-width: 100%;
+    height: 100%;
+    filter: drop-shadow(5px 5px 20px rgba(138, 138, 138, 0.616));
+}
+.penghargaan .img .kanan img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10vh;
+    margin-bottom: auto;
+    filter: drop-shadow(5px 5px 20px rgba(138, 138, 138, 0.616));
+}
+
+/* sugestion section */
+
+.sugest{
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    align-items: center;
+}
+.sugest .title{
+    text-align: center;
+    font-size: 1.5vw;
+    width: 60vw;
+    color: #444444;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sugest hr{
+    margin-top: 6vh;
+    width: 5vw;
+    height: 2px;
+    background-color: #1a75bb;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sugest .description{
+    margin-top: 6vh;
+    width: 60vw;
+    font-size: 1.2;
+    color: #7b7f88;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sugest .btn{
+    margin-top: 6vh;
+    align-items: center;
+    
+}
+
+.sugest .btn button{
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1vw;
+    background-color: #1a75bb;
+    width: 15vw;
+    transition: .4s ease;
+}
+.sugest .btn button:hover{
+    background-color: #1a75bbbd;;
+    cursor: pointer;
+}
+
+
+/* laptop section */
+.laptop{
+    padding-top: 20vh;
+    width: 100%;
+    height: auto;
+}
+.laptop img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* question section */
+
+.question{
+    padding-top: 20vh;
+}
+
+.q .title h1{
+    margin-top: 9vh;
+    font-size: 1.5vw;
+    width: 40vw;
+    color: #444444;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.q .title h1:before{
+    content: '\2714 \fe0e';
+    color: #1a75bb;
+}
+
+.q .description{
+    margin-top: 6vh;
+    width: 40vw;
+    font-size: 1.4;
+    color: #71747c;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kiriq{
+    
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+
+.kananq{
+    display: inline;
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+
+/* banner section */
+
+.banner{
+    align-items: center;
+    text-align: center;
+    padding-top: 7vh;
+    margin-top: 15vh;
+    background-color: #395d7f;
+    padding-bottom: 7vh;
+}
+.banner .title{
+    font-size: .8vw;
+    width: 45vw;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+.banner .title h1{
+    text-align: center;
+}
+
+.banner .description{
+    text-align: center;
+    margin-top: 2vh;
+    width: 48vw;
+    font-size: .6;
+    color: #e2e3e5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner .btn{
+    margin-top: 6vh;
+    align-items: center;
+    
+}
+
+.banner .btn button{
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh;
+    color: #395d7f;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1vw;
+    background-color: #ffffff;
+    width: 15vw;
+    transition: .4s ease;
+}
+
+.banner .btn button:hover{
+    color: #ffff;
+    background-color: #1a75bbbd;;
+    cursor: pointer;
+}
+
+/* contact us section */
+
+.contact{
+    background-color: #cfe2f1;
+    height: 800px;
+    padding-top: 20vh;
+}
+.contact .card{
+    margin: auto;
+    height: 90vh;
+    width: 80%;
+    background-color: #fff;
+    padding-top: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 20px rgba(138, 138, 138, 0.616));
+}
+.card .title{
+    font-size: .8vw;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.card .kiriq input{
+    margin-top: 25px;
+    padding-left: 8px;
+    width: 95%;
+    height: 6vh;
+    font-size: 1.3vw;
+    margin-right: 19px;
+}
+.card .kananq input{
+    margin-top: 25px;
+    padding-left: 8px;
+    width: 90%;
+    height: 6vh;
+    font-size: 1.3vw;
+    margin-left: 19px;
+}
+.card input{
+    margin-top: 25px;
+    padding-left: 8px;
+    width: 100%;
+    height: 6vh;
+    font-size: 1.3vw;
+}
+.card textarea{
+    margin-top: 25px;
+    width: 102%;
+}
+
+.card button{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1vw;
+    background-color: #395d7f;
+    width: 15vw;
+    transition: .4s ease;
+}
+
+.card button:hover{
+    background-color: #395d7fc0;
+    cursor: pointer;
+}
+
+.contact .kananq .title{
+    letter-spacing: .3vw;
+    margin-top: 6vh;
+    font-size: .9vw;
+    width: 40vw;
+    color: #444444;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact .kananq .section{
+    margin-top: 25px;
+    border-bottom: dotted rgb(189, 189, 189);
+    padding-bottom: 35px;
+}
+
+.contact .kananq h2 {
+    font-size: 1.1vw;
+    width: 100%;
+    color: rgb(126, 126, 126);
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.contact .kananq p{
+    font-size: 1vw;
+    width: 100%;
+    color: rgba(red, green, rgb(88, 88, 88), alpha);
+}
+
+.contact .kananq button{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1vw;
+    background-color: #4615f7;
+    width: 15vw;
+    transition: .4s ease;
+}
+.contact .kananq button:hover{
+    background-color: #4615f7c7;
+    cursor: pointer;
+}
+
+/* footer sectiom */
+
+footer{
+    height: 13vh;
+    background-color: #fff;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+footer .text{
+    margin:auto;
+    height: 20px;
+    width: 16vw;
+}
+footer .text p{
+    display: inline-block;
+}
+footer .text img{
+    display: inline;
+    float: right;
+    height: 100%;
+}
